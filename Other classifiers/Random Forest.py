@@ -2,7 +2,8 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import cross_val_score, train_test_split
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import make_scorer, f1_score, accuracy_score
+from sklearn.metrics import make_scorer, f1_score
+from sklearn.metrics import accuracy_score
 
 # 从 CSV 文件中读取数据
 file_path = './boston_housing_data.csv'
