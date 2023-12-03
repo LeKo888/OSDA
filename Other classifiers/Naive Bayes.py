@@ -6,7 +6,7 @@ from sklearn.metrics import make_scorer, f1_score
 from sklearn.metrics import accuracy_score
 
 # 从 CSV 文件中读取数据
-file_path = 'Decision tree/boston_housing_data.csv'
+file_path = './boston_housing_data.csv'
 data = pd.read_csv(file_path)
 
 # 将房价转化为分类标签
