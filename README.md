@@ -77,7 +77,7 @@ for j in np.arange(step1, step3, step3):
       a.append(j)
       b.append(num)
 
-# Show results      
+# Show result      
 import matplotlib.pyplot as plt
 plt.plot(a, b)
 plt.xlabel('Alpha')
