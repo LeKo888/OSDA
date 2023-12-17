@@ -2,8 +2,8 @@
 Lazy FCA
 
 ## dataset
-The Boston Housing Dataset
-Congressional Voting Record
+The Boston Housing Dataset /n
+Congressional Voting Record /n
 MNIST
 
 ## lazy classification
