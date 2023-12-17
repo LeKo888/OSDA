@@ -85,7 +85,7 @@ plt.ylabel('Accuracy')
 plt.show()
 ```
 
-![image]（https://github.com/LeKo888/osda_hm/edit/main/re/A1.JPG)
+![image](https://github.com/LeKo888/osda_hm/edit/main/re/A1.JPG)
 
 ### 4.Code running process
 
