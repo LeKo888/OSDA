@@ -90,7 +90,7 @@ Optimum parameters can be calculated!
 
 ### 4.Code running process
 
-http://htmlpreview.github.io/?https://github.com/LeKo888/osda_hm/blob/main/re/demo.html
+[here](http://htmlpreview.github.io/?https://github.com/LeKo888/osda_hm/blob/main/re/demo.html)
 
 ### 5.Other classifiers
 [Decision tree](https://github.com/LeKo888/osda_hm/blob/main/Other%20classifiers/Decision%20tree.py)  
