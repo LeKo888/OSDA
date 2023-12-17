@@ -39,5 +39,10 @@ X = df.iloc[:,;-1]
 y = df['Degree']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
+pat_cls = fcalc.classifier.PatternBinaryClassifier(X_train.values, y_train.to_numpy())
 
+pat_cls.predict(X_test.values)
+
+from sklearn.metrics import accuracy_score
+print("accuracy:",round(accuracy_score(y_test, pat_cls.predictions),4))
 ```
