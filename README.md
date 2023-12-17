@@ -90,7 +90,7 @@ Optimum parameters can be calculated!
 
 ### 4.Code running process
 
-[here](http://htmlpreview.github.io/?https://github.com/LeKo888/osda_hm/blob/main/re/demo.html)
+[Link](http://htmlpreview.github.io/?https://github.com/LeKo888/osda_hm/blob/main/re/demo.html)
 
 ### 5.Other classifiers
 [Decision tree](https://github.com/LeKo888/osda_hm/blob/main/Other%20classifiers/Decision%20tree.py)  
@@ -99,3 +99,11 @@ Optimum parameters can be calculated!
 [k-NN](https://github.com/LeKo888/osda_hm/blob/main/Other%20classifiers/k-NN.py)  
 [Naive Bayes](https://github.com/LeKo888/osda_hm/blob/main/Other%20classifiers/Naive%20Bayes.py)  
 [Logistic](https://github.com/LeKo888/osda_hm/blob/main/Other%20classifiers/Logistic.py)  
+
+### 6.Summarize
+
+|Dataset|Lazy|Lazy (adjusted)|Decision tree|Random Forest|XGBoost|k-NN|Naive Bayes|Logistic|
+|-|-|-|-|-|-|-|-|-|
+|Boston|0.64|0.77|0.73|0.82|0.83|0.72|0.74|0.84|
+|Vote|0.93|0.95|0.88|0.94|0.92|0.93|0.90|0.92|
+|Mnist|0.81|0.85|0.87|0.88|0.89|0.96|0.83|0.91|
