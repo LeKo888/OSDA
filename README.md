@@ -28,6 +28,8 @@ df.sample(100)
 2  0.02729   0.0   7.07     0  0.469  7.185  61.1  4.9671    2  242.0   ...    True
 3  0.03237   0.0   2.18     0  0.458  6.998  45.8  6.0622    3  222.0   ...    True
 4  0.06905   0.0   2.18     0  0.458  7.147  54.2  6.0622    3  222.0   ...    False
+...
+......
 ```
 
 ### 2.Unadjusted
@@ -48,4 +50,37 @@ print("accuracy:",round(accuracy_score(y_test, pat_cls.predictions),4))
 ```
 accuracy: 0.64232
 
-### 2.Unadjusted
+### 3.Test optimal alpha parameters:
+```python
+# KFold
+from sklearn.model_selection import KFold
+kf = KFold(n_splits=10, random_state=None, shuffle=False)
+
+# alpha
+a=[]
+b=[]
+
+for j in np.arange(step1, step3, step3):
+      sum = 0.0
+      for i, (train_index, test_index) in enumerate(kf.split(X,y)):
+            print(f"Fold {i}:")
+            X_train=X.iloc[train_index]
+            y_train=y.iloc[train_index]
+            X_test=X.iloc[test_index]
+            y_test=y.iloc[test_index]
+            pat_cls = fcalc.classifier.PatternBinaryClassifier(X_train.values, y_train.to_numpy(), alpha=j)
+            pat_cls.predict(X_test.values)
+            acc=accuracy_score(y_test, pat_cls.predictions)
+            print(acc)
+            sum += acc
+      print(f"alpha={j}：average_accuracy={sum/10}")
+      num = sum/10
+      a.append(j)
+      b.append(num)
+      
+import matplotlib.pyplot as plt
+plt.plot(a, b)
+plt.xlabel('Alpha')
+plt.ylabel('Accuracy')
+plt.show()
+```
