@@ -46,3 +46,6 @@ pat_cls.predict(X_test.values)
 from sklearn.metrics import accuracy_score
 print("accuracy:",round(accuracy_score(y_test, pat_cls.predictions),4))
 ```
+accuracy: 0.64232
+
+### 2.Unadjusted
