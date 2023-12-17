@@ -56,10 +56,9 @@ accuracy: 0.64232
 from sklearn.model_selection import KFold
 kf = KFold(n_splits=10, random_state=None, shuffle=False)
 
-# alpha
+# Adjust Alpha parameters
 a=[]
 b=[]
-
 for j in np.arange(step1, step3, step3):
       sum = 0.0
       for i, (train_index, test_index) in enumerate(kf.split(X,y)):
@@ -77,7 +76,8 @@ for j in np.arange(step1, step3, step3):
       num = sum/10
       a.append(j)
       b.append(num)
-      
+
+# Show results      
 import matplotlib.pyplot as plt
 plt.plot(a, b)
 plt.xlabel('Alpha')
