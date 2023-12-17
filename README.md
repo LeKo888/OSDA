@@ -87,6 +87,8 @@ plt.show()
 
 ![](https://github.com/LeKo888/osda_hm/edit/main/re/A1.JPG)
 
+Optimum parameters can be calculated!
+
 ### 4.Code running process
 
 http://htmlpreview.github.io/?https://github.com/LeKo888/osda_hm/blob/main/re/demo.html
