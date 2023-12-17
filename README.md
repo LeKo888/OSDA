@@ -85,9 +85,7 @@ plt.ylabel('Accuracy')
 plt.show()
 ```
 
-![](https://github.com/LeKo888/osda_hm/edit/main/re/A1.JPG)
-
-Optimum parameters can be calculated!
+![image](https://github.com/LeKo888/osda_hm/edit/main/re/A1.JPG)
 
 ### 4.Code running process
 
