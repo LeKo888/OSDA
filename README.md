@@ -1,12 +1,12 @@
 # osda_hm
 Lazy FCA
 
-##dataset
+## dataset
 The Boston Housing Dataset
 Congressional Voting Record
 MNIST
 
-##lazy classification
+## lazy classification
 (Take The Boston Housing Dataset as an example)
 
 ### 1.Data analysis
