@@ -84,3 +84,5 @@ plt.xlabel('Alpha')
 plt.ylabel('Accuracy')
 plt.show()
 ```
+ 
+http://htmlpreview.github.io/?
